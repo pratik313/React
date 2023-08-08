@@ -1,0 +1,28 @@
+.grid_box{
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background: linear-gradient(-45deg, #671a03, #1f1906c1, #23a6d5, #23d5ab);
+    justify-items: center;
+    animation: colr 14s ease infinite;
+}
+
+@keyframes colr {
+	0% {
+		/* background-position: 0% 50%; */
+    background: linear-gradient(-45deg, #671a03, #1f1906c1, #23a6d5, #23d5ab);
+
+	}
+	50% {
+		/* background-position: 100% 50%; */
+    background: linear-gradient(-95deg, #671a03, #1f1906c1, #23a6d5, #23d5ab);
+
+	}
+	100% {
+		/* background-position: 0% 50%; */
+    background: linear-gradient(-165deg, #671a03, #1f1906c1, #23a6d5, #23d5ab);
+
+	}
+}
+

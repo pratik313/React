@@ -1,0 +1,24 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    height: 80px; /* You can adjust the height as needed */
+  }
+/*   
+  .logo {
+    margin-left: 10px; /* Adjust this margin to control the distance from the start */
+  } */
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    margin: 0 10px; /* Adjust this margin to control the space between list items */
+    cursor: pointer;
+  }
+  

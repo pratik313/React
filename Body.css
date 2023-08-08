@@ -1,0 +1,28 @@
+.div{
+    
+    height: 500px;
+    width: 100vw;
+    background-color: rgb(24, 105, 105);
+    text-align: center;
+    color: #f0f8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+
+}
+/* 
+.D2{
+    
+    height: 300px;
+    width: 40vw;
+    background-color: chartreuse;
+    color: black;
+    border-radius: 10%;
+}
+.D3{
+    height: 300px;
+    width: 40vw;
+    background-color: rgb(9, 249, 117);
+    color: black;
+    border-radius: 10%;
+} */
